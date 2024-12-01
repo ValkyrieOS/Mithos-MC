@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mithos MC - Servidor de Discord</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/your-code.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Particle.js para efectos de fondo -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body class="bg-[#0a0014] text-purple-100 min-h-screen font-['Poppins']">
+    <!-- Particles Background -->
+    <div id="particles-js" class="absolute inset-0 z-0"></div>
+
+    <!-- Hero Section -->
+    <div class="relative min-h-screen flex items-center justify-center">
+      <!-- Header -->
+      <header class="absolute top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-6">
+          <div class="flex items-center justify-between">
+            <h1
+              class="text-4xl font-['Cinzel Decorative'] text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 font-bold"
+            >
+              Mithos MC
+            </h1>
+            <ul class="hidden md:flex space-x-12">
+              <li>
+                <a
+                  href="#inicio"
+                  class="hover:text-purple-400 transition-all hover:scale-110 inline-block"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#caracteristicas"
+                  class="hover:text-purple-400 transition-all hover:scale-110 inline-block"
+                  >Características</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#unete"
+                  class="hover:text-purple-400 transition-all hover:scale-110 inline-block"
+                  >Únete</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Content Mejorado -->
+      <div class="relative z-20 text-center px-4 mt-20">
+        <div class="animate-float">
+          <div class="relative inline-block">
+            <h2
+              class="text-8xl md:text-9xl font-['Cinzel Decorative'] font-black mb-6 leading-tight"
+            >
+              <span
+                class="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-500 to-purple-600 animate-gradient"
+              >
+                Mithos MC
+              </span>
+            </h2>
+            <!-- Efectos decorativos -->
+            <div
+              class="absolute -top-8 -left-8 w-16 h-16 bg-gradient-to-r from-purple-500 to-fuchsia-500 opacity-20 rounded-full blur-xl animate-pulse"
+            ></div>
+            <div
+              class="absolute -bottom-8 -right-8 w-16 h-16 bg-gradient-to-r from-fuchsia-500 to-purple-500 opacity-20 rounded-full blur-xl animate-pulse delay-150"
+            ></div>
+          </div>
+          <p
+            class="text-2xl md:text-3xl text-purple-300 mb-12 max-w-3xl mx-auto font-light"
+          >
+            <span class="block mb-2">Donde las leyendas cobran vida</span>
+            <span class="text-lg text-purple-400/80"
+              >Un servidor único • Una experiencia mágica</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Características -->
+    <section id="caracteristicas" class="relative py-32 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-[#0a0014] via-purple-900/10 to-[#0a0014]"
+      ></div>
+      <div class="container mx-auto px-4 relative z-10">
+        <h3
+          class="text-5xl font-['Cinzel Decorative'] text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 mb-20"
+        >
+          Características Únicas
+        </h3>
+        <div class="grid md:grid-cols-3 gap-12">
+          <!-- Primer Cartel -->
+          <div
+            class="group relative bg-gradient-to-b from-purple-900/20 to-purple-900/5 p-8 rounded-2xl backdrop-blur-sm transition-all duration-500 border border-purple-500/10 hover:border-purple-500/50 overflow-hidden"
+          >
+            <!-- Efecto de brillo en hover -->
+            <div
+              class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-fuchsia-500/10"
+              ></div>
+              <div
+                class="absolute -inset-x-2/4 inset-y-0 w-[200%] animate-[spin_20s_linear_infinite] bg-gradient-to-r from-transparent via-purple-500/10 to-transparent"
+              ></div>
+            </div>
+
+            <!-- Icono con efectos -->
+            <div class="relative">
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-purple-500 to-fuchsia-500 rounded-2xl flex items-center justify-center mb-8 mx-auto transform -rotate-6 group-hover:rotate-0 transition-all duration-500 shadow-lg shadow-purple-500/20 group-hover:shadow-purple-500/40"
+              >
+                <i
+                  class="fas fa-crown text-3xl text-white transform group-hover:scale-110 transition-transform duration-500"
+                ></i>
+              </div>
+            </div>
+
+            <!-- Contenido con efectos -->
+            <h4
+              class="relative text-2xl font-['Cinzel Decorative'] text-purple-300 mb-4 text-center transform group-hover:scale-105 transition-transform duration-500"
+            >
+              Comunidad Élite
+            </h4>
+            <p
+              class="relative text-purple-200/90 text-center leading-relaxed transform group-hover:translate-y-0 transition-all duration-500"
+            >
+              Forma parte de una comunidad exclusiva de jugadores apasionados
+              por la aventura y el misterio.
+              <span
+                class="block mt-4 text-sm text-purple-400/70 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                ¡Únete ahora!
+              </span>
+            </p>
+          </div>
+
+          <!-- Segundo Cartel -->
+          <div
+            class="group relative bg-gradient-to-b from-purple-900/20 to-purple-900/5 p-8 rounded-2xl backdrop-blur-sm transition-all duration-500 border border-purple-500/10 hover:border-purple-500/50 overflow-hidden"
+          >
+            <div
+              class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-fuchsia-500/10"
+              ></div>
+              <div
+                class="absolute -inset-x-2/4 inset-y-0 w-[200%] animate-[spin_20s_linear_infinite] bg-gradient-to-r from-transparent via-purple-500/10 to-transparent"
+              ></div>
+            </div>
+
+            <div class="relative">
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-purple-500 to-fuchsia-500 rounded-2xl flex items-center justify-center mb-8 mx-auto transform -rotate-6 group-hover:rotate-0 transition-all duration-500 shadow-lg shadow-purple-500/20 group-hover:shadow-purple-500/40"
+              >
+                <i
+                  class="fas fa-gem text-3xl text-white transform group-hover:scale-110 transition-transform duration-500"
+                ></i>
+              </div>
+            </div>
+
+            <h4
+              class="relative text-2xl font-['Cinzel Decorative'] text-purple-300 mb-4 text-center transform group-hover:scale-105 transition-transform duration-500"
+            >
+              Eventos Épicos
+            </h4>
+            <p
+              class="relative text-purple-200/90 text-center leading-relaxed transform group-hover:translate-y-0 transition-all duration-500"
+            >
+              Participa en eventos legendarios con recompensas únicas y
+              experiencias inolvidables.
+              <span
+                class="block mt-4 text-sm text-purple-400/70 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                ¡Descubre más!
+              </span>
+            </p>
+          </div>
+
+          <!-- Tercer Cartel -->
+          <div
+            class="group relative bg-gradient-to-b from-purple-900/20 to-purple-900/5 p-8 rounded-2xl backdrop-blur-sm transition-all duration-500 border border-purple-500/10 hover:border-purple-500/50 overflow-hidden"
+          >
+            <div
+              class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-fuchsia-500/10"
+              ></div>
+              <div
+                class="absolute -inset-x-2/4 inset-y-0 w-[200%] animate-[spin_20s_linear_infinite] bg-gradient-to-r from-transparent via-purple-500/10 to-transparent"
+              ></div>
+            </div>
+
+            <div class="relative">
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-purple-500 to-fuchsia-500 rounded-2xl flex items-center justify-center mb-8 mx-auto transform -rotate-6 group-hover:rotate-0 transition-all duration-500 shadow-lg shadow-purple-500/20 group-hover:shadow-purple-500/40"
+              >
+                <i
+                  class="fas fa-dragon text-3xl text-white transform group-hover:scale-110 transition-transform duration-500"
+                ></i>
+              </div>
+            </div>
+
+            <h4
+              class="relative text-2xl font-['Cinzel Decorative'] text-purple-300 mb-4 text-center transform group-hover:scale-105 transition-transform duration-500"
+            >
+              Mundo Mágico
+            </h4>
+            <p
+              class="relative text-purple-200/90 text-center leading-relaxed transform group-hover:translate-y-0 transition-all duration-500"
+            >
+              Explora un reino místico lleno de secretos ancestrales y desafíos
+              épicos.
+              <span
+                class="block mt-4 text-sm text-purple-400/70 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                ¡Explora ahora!
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nueva sección de Estadísticas -->
+    <section class="relative py-20 overflow-hidden">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="group text-center p-8 bg-gradient-to-b from-purple-900/20 to-purple-900/5 rounded-2xl backdrop-blur-sm border border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 hover:transform hover:scale-105"
+          >
+            <div class="mb-4">
+              <i
+                class="fas fa-users text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500"
+              ></i>
+            </div>
+            <h4
+              class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 mb-3"
+            >
+              200+
+            </h4>
+            <p class="text-purple-300 text-lg">Miembros en Discord</p>
+          </div>
+          <div
+            class="group text-center p-8 bg-gradient-to-b from-purple-900/20 to-purple-900/5 rounded-2xl backdrop-blur-sm border border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 hover:transform hover:scale-105"
+          >
+            <div class="mb-4">
+              <i
+                class="fas fa-server text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500"
+              ></i>
+            </div>
+            <h4
+              class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 mb-3"
+            >
+              IP
+            </h4>
+            <p class="text-purple-300 text-lg">Próximamente</p>
+            <span class="inline-block mt-2 text-sm text-purple-400/70"
+              >¡Mantente atento!</span
+            >
+          </div>
+          <div
+            class="group text-center p-8 bg-gradient-to-b from-purple-900/20 to-purple-900/5 rounded-2xl backdrop-blur-sm border border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 hover:transform hover:scale-105"
+          >
+            <div class="mb-4">
+              <i
+                class="fas fa-clock text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500"
+              ></i>
+            </div>
+            <h4
+              class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 mb-3"
+            >
+              24/7
+            </h4>
+            <p class="text-purple-300 text-lg">Servidor Activo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Mejorado -->
+    <section id="unete" class="relative py-32 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-fuchsia-900/20 backdrop-blur-md"
+      ></div>
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2
+            class="text-6xl font-['Cinzel Decorative'] text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500 mb-8"
+          >
+            ¿Listo para la Aventura?
+          </h2>
+          <p class="text-2xl text-purple-300 mb-12 font-light">
+            La leyenda te espera. ¿Te atreves a ser parte de ella?
+          </p>
+          <div class="flex flex-col md:flex-row gap-8 justify-center">
+            <a
+              href="https://discord.gg/yvfbUaPqqU"
+              class="group relative inline-flex items-center justify-center px-10 py-5 text-xl font-bold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-lg hover:from-purple-500 hover:to-fuchsia-500 transform hover:scale-105 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40"
+            >
+              <span class="relative flex items-center">
+                <i class="fab fa-discord mr-3 text-2xl"></i>
+                Unirse al Discord
+                <i
+                  class="fas fa-arrow-right ml-3 transform group-hover:translate-x-1 transition-transform"
+                ></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Mejorado -->
+    <footer class="relative bg-[#0a0014] py-16">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-12 text-center md:text-left">
+          <div>
+            <h3 class="text-2xl font-['Cinzel'] text-purple-300 mb-4">
+              Mithos MC
+            </h3>
+            <p class="text-purple-400">
+              Un servidor único con una comunidad extraordinaria.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-xl text-purple-300 mb-4">Enlaces Rápidos</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="rules.html"
+                  class="text-purple-400 hover:text-purple-300"
+                  >Reglas</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-purple-400 hover:text-purple-300"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-purple-400 hover:text-purple-300"
+                  >Soporte</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl text-purple-300 mb-4">Síguenos</h4>
+            <div class="flex justify-center md:justify-start space-x-4">
+              <a href="#" class="text-purple-400 hover:text-purple-300"
+                ><i class="fab fa-discord text-2xl"></i
+              ></a>
+              <a href="#" class="text-purple-400 hover:text-purple-300"
+                ><i class="fab fa-twitter text-2xl"></i
+              ></a>
+              <a href="#" class="text-purple-400 hover:text-purple-300"
+                ><i class="fab fa-instagram text-2xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-purple-800/30 mt-16 pt-8 text-center">
+          <p class="text-purple-400/70">
+            &copy; 2024 Mithos MC - Forjando Leyendas
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script para Particles.js -->
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 160,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          color: {
+            value: ["#9333ea", "#c026d3", "#7c3aed", "#a855f7"],
+          },
+          shape: {
+            type: "circle",
+          },
+          opacity: {
+            value: 0.3,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 0.5,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 1.5,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 1,
+              size_min: 0.1,
+              sync: false,
+            },
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#a855f7",
+            opacity: 0.1,
+            width: 0.5,
+          },
+          move: {
+            enable: true,
+            speed: 1,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: true,
+              rotateX: 600,
+              rotateY: 1200,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "bubble",
+            },
+            onclick: {
+              enable: true,
+              mode: "push",
+            },
+            resize: true,
+          },
+          modes: {
+            bubble: {
+              distance: 150,
+              size: 3,
+              duration: 2,
+              opacity: 0.3,
+              speed: 3,
+            },
+            push: {
+              particles_nb: 3,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+
+    <!-- Estilos adicionales para las animaciones -->
+    <style>
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .animate-gradient {
+        background-size: 200% 200%;
+        animation: gradient 8s ease infinite;
+      }
+    </style>
+  </body>
+</html>
